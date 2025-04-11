@@ -26,4 +26,5 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.RegisterTodoEndpoints();
 app.Run();
